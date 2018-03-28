@@ -1,0 +1,36 @@
+body{
+  font-family: 'Neucha', cursive;
+  text-align: center;
+  background: #1a868c;
+  color: white;
+  margin-top: 2rem;
+}
+
+.square{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left:auto; 
+  margin-right:auto;
+  height: 5rem;
+  width: 5rem;
+  background: pink;
+}
+
+.color {
+  background: black;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 3rem;
+  width: 5rem;
+  padding: 0;
+  text-align: center;
+  margin: 1rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.color:hover {
+  background:grey;  
+}
