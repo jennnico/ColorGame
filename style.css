@@ -6,15 +6,28 @@ body{
   margin-top: 2rem;
 }
 
+#globe{
+   border-radius: 50%;
+}
+
+
+h4{
+  margin-top: 2rem;
+}
+
 .square{
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-top: 2rem;
   margin-left:auto; 
   margin-right:auto;
-  height: 5rem;
-  width: 5rem;
+  height: 9rem;
+  width: 9rem;
   background: pink;
   cursor: pointer;
+  font-size: 1.8rem;
+  border-radius: 20px;
+  border: 1px solid white;
 }
 
 .color {
@@ -30,6 +43,7 @@ body{
   margin: 1rem;
   cursor: pointer;
   display: inline-block;
+  border-radius: 20px;
 }
 
 .color:hover {
